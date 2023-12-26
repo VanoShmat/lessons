@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+/* ------------------ */
+body {
+    font-family: "inter", sans-serif;
+}
+.wrapper {
+    background-color: #37393f;
+    overflow: hidden;
+    min-height: 100%;
+}
+.homework {
+    padding: 50px 0;
+}
+.homework__container {
+    max-width: 830px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.homework__body {
+}
+.homework__project {
+    font-size: 30px;
+    text-align: center;
+}
+.homework__project:not(:last-child) {
+    margin: 0 0 30px 0;
+}
+.homework__link {
+    display: inline-block;
+    padding: 30px;
+    background-color: #845656;
+    width: 320px;
+    transition: all 0.3s;
+}
+.homework__link:hover {
+    background-color: #724b4b;
+}
